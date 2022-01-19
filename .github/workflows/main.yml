@@ -19,6 +19,7 @@ jobs:
         username: ans
         host: 68.183.88.222
         key: ${{ secrets.SSH_PASSWORD }}
+        password: masterkey
         script: |
          cd /var/www/gymie
          git pull origin main
